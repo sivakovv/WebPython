@@ -1,0 +1,73 @@
+* {
+    padding: 3px;
+    margin: 3px;
+}
+
+.line {
+  border: 1px solid black;
+  padding: 0;
+}
+
+#container {
+    width: 100%;
+ }
+ #container-left {
+    width: 20%;
+    float: right;
+    background-color: black;
+ }
+ #container-right {
+     width: 77%;
+     float: left;
+ }
+
+.text-main {
+    color: white;
+}
+
+.right-main {
+    background-color: silver;
+    margin-top: 30px;
+}
+
+.right-style {
+    display: flex;
+}
+.email {
+    display: block;
+}
+
+.cell-numbers {
+    display: block;
+}
+
+.img-phone {
+    margin-left: 160px;
+}
+
+.metka-style {
+    display: flex;
+}
+
+.education {
+    display: flex;
+}
+
+.body-right {
+    display: flex;
+}
+.bach-right {
+    color: #62639B;
+    margin-left: 290px;
+}
+
+.houseEducation h3 {
+    margin-left: 300px;
+    font-weight: 600;
+}
+
+.programing-state {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}

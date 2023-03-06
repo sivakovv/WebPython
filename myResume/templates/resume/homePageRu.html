@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="container-left">
+        <img src="{% static 'images/avatar.jpg'%}" width="250px" height="300px">
+        <div class="text-main">
+          <h2>Про мене:</h2>
+          <p>_______________________________</p>
+          <h4>
+            Свій шлях в iT я розпочав при вступі в університет ознайомлюючись з першою мовою програмування JavaScript
+            В Університеті я розпочав вивчення мови Java, що призвело до зацікавлення Backend розробкою.
+            Потім я вийшов на вивчення Node JS.
+            Я прочитав багато тем і виконав багато завдань, але ще не встиг
+            вивчити досконало. Так розпочався мій старт в Backend розробці
+          </h4>
+          <p>_______________________________</p>
+          <h2>Additional Information</h2>
+          <h4>
+            <p>Інностранні мови: Англійська, Німецька</p>
+            <p>Наявність водійських прав: Немає</p>
+            <p>Служба в армії: Немає</p>
+            <p>Рекоменданії: Немає</p>
+            <p>Особисті заняття у вільний час: Вивчення мов програмування, </br> відпочинок, зайняття спортом, баскетболом і футболом та рибалка</a></p>
+            <p>Особисті якості:  <a>відсутність шкідливих привичок, відповідальність, </br> активність, зосередженість</a></p>
+          </h4>
+        </div>
+      </div>
+      <div id="container-right">
+        <div>
+          <div class="right-main">
+            <h1>Сіваков Вадим</h1>
+            <h3>Backend developer</h3>
+            <div class="right-style">
+              <img src="{% static 'images/pochta.png' %}" width="30px" height="30px">
+              <div class="email">
+                <h3>dbadrygana@gmail.com</h3>
+                <h3>sivakovvadim99@gmail.com</h3>
+              </div>
+              <img src="{% static 'images/phone.png' %}" width="30px" height="30px" class="img-phone">
+              <div class="cell-numbers">
+                <h3>+380 97 4061 420</h3>
+              </div>
+            </div>
+            <div class="metka-style">
+              <img src="{% static 'images/metka.png' %}" width="35px" height="35px">
+              <div>
+                <h3>Україна, м. Черкаси, вулиця Чехова, 42</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="education">
+              <img src="{% static 'images/education.png' %}" width="40px">
+              <h2>ОСВІТА</h2>
+            </div>
+            <hr class="line" />
+            <div>
+              <div class="body-right">
+                <h2>2007-2016</h2>
+                <div class="houseEducation">
+                  <h3>Тальнівський навчально-виховний комплекс Загально-освітня школа І-ІІІ ступенів № 1</h3>
+                </div>
+              </div>
+              <div class="body-right">
+                <h2>2016-2020</h2>
+                <div class="houseEducation">
+                  <h3> Тальнівський будівельно-економічний коледж</h3>
+                </div>
+              </div>
+              <div class="body-right">
+                <h2>2020-2025</h2>
+                <div class="houseEducation">
+                  <h3>ЧЕРКАСЬКИЙ ДЕРЖАВНИЙ ТЕХНОЛОГІЧНИЙ УНІВЕРСИТЕТ</h3>
+                </div>
+              </div>
+            </div>
+            <hr class="line" />
+            <div>
+              <h2>Мови програмування</h2>
+              <div class="programing-state">
+                <div>
+                  <h3>
+                    <p>JavaScript</p>
+                    <img src="{% static 'images/js.svg' %}" width="70px" height="40px" />
+                  </h3>
+                </div>
+                <div>
+                  <h3>
+                    <p>Java</p>
+                    <img src="{% static 'images/java.jpeg' %}" width="70px" height="40px" />
+                  </h3>
+                </div>
+                <div>
+                  <h3>
+                    <p>Node JS</p>
+                    <img src="{% static 'images/node.png' %}" width="70px" height="40px" />
+                  </h3>
+                </div>
+              </div>
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
